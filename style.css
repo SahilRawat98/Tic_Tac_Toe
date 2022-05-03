@@ -1,0 +1,44 @@
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.turn{
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    text-align-last: center;
+    background-color: transparent;
+    color: firebrick;
+}
+.box{
+    margin-top: 60px;
+    width: 310px;
+    height: 325px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    color: black;
+    font-size: 50px;
+    color: yellowgreen;
+    background-color: bisque;
+}
+.reset{
+    background-color: aqua;
+    color:black
+}
+.result{
+    width:350px;
+    height:25px;
+    font-size: 20px;
+    align-items: center;
+    border:none;
+    border-color:transparent;
+    text-align-last: center;
+    background-color: transparent;
+    color: crimson;
+}
