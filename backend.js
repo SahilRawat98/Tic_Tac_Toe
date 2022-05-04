@@ -10,20 +10,24 @@ function toe(a)
     }
     if(count%2==0)
     {
+        document.getElementById(c).className="red";
         document.getElementById(c).value="X";
         count++;
     }
     else
     {
+        document.getElementById(c).className="green";
         document.getElementById(c).value="0";
         count++;
     }
     if(count%2==0)
     {
+        document.getElementById("turn").className="result";
         document.getElementById("turn").value="X's turn";
     }
     else
     {
+        document.getElementById("turn").className="result1";
         document.getElementById("turn").value="0's turn";
     }
 
@@ -42,11 +46,13 @@ function tac()
     var b8=document.getElementById("b8").value;
     if((b0=="X" && b1=="X" && b2=="X") || (b3=="X" && b4=="X" && b5=="X") || (b6=="X" && b7=="X" && b8=="X") || (b0=="X" && b3=="X" && b6=="X") || (b1=="X" && b4=="X" && b7=="X") || (b2=="X" && b5=="X" && b8=="X") || (b0=="X" && b4=="X" && b8=="X") || (b2=="X" && b4=="X" && b6=="X"))
     {
+        document.getElementById("result").className="result";
         document.getElementById("result").value="🎉X win the game";
         stop=1;
     }
     else if((b0=="0" && b1=="0" && b2=="0") || (b3=="0" && b4=="0" && b5=="0") || (b6=="0" && b7=="0" && b8=="0") || (b0=="0" && b3=="0" && b6=="0") || (b1=="0" && b4=="0" && b7=="0") || (b2=="0" && b5=="0" && b8=="0") || (b0=="0" && b4=="0" && b8=="0") || (b2=="0" && b4=="0" && b6=="0"))
     {
+        document.getElementById("result").className="result1";
         document.getElementById("result").value="🎉0 win the game";
         stop=1;
     }
