@@ -2,30 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIC TAC TOE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div align="center"><input type="text" value="X-Turn" class="turn" id="turn" readonly></div>
+    <div align="center">
+        <div class="marq">
+            <marquee>TIC TAC TOE</marquee>
+        </div>
+    </div>
+    <div align="center"><input type="text" value="X-Turn" class="result" id="turn" readonly></div>
     <div align="center">
         <div class="box">
             <table>
                 <tr>
-                    <td><input type="button" class="b" id="b0" onclick="toe('0')" value=""></td>
-                    <td><input type="button" class="b" id="b1" onclick="toe('1')" value="" ></td>
-                    <td><input type="button" class="b" id="b2" onclick="toe('2')" value=""></td>
+                    <td><input type="button" class="red" id="b0" onclick="toe('0')" value=""></td>
+                    <td><input type="button" class="red" id="b1" onclick="toe('1')" value="" ></td>
+                    <td><input type="button" class="red" id="b2" onclick="toe('2')" value=""></td>
                 </tr>
                 <tr>
-                    <td><input type="button" class="b" id="b3" onclick="toe('3')" value=""></td>
-                    <td><input type="button" class="b" id="b4" onclick="toe('4')" value=""></td>
-                    <td><input type="button" class="b" id="b5" onclick="toe('5')" value=""></td>
+                    <td><input type="button" class="red" id="b3" onclick="toe('3')" value=""></td>
+                    <td><input type="button" class="red" id="b4" onclick="toe('4')" value=""></td>
+                    <td><input type="button" class="red" id="b5" onclick="toe('5')" value=""></td>
                 </tr>
                 <tr>
-                    <td><input type="button" class="b" id="b6" onclick="toe('6')" value=""></td>
-                    <td><input type="button" class="b" id="b7" onclick="toe('7')" value=""></td>
-                    <td><input type="button" class="b" id="b8" onclick="toe('8')" value=""></td>
+                    <td><input type="button" class="red" id="b6" onclick="toe('6')" value=""></td>
+                    <td><input type="button" class="red" id="b7" onclick="toe('7')" value=""></td>
+                    <td><input type="button" class="red" id="b8" onclick="toe('8')" value=""></td>
                 </tr> 
         </table>
     </div>
